@@ -21,23 +21,44 @@
     <div id="listaCompras">
         <h1>Selecione a quantidade de itens desejados: </h1>
         <form action="#">
-            <label for="Lápis">Lápis</label><br>
-            <input type="number" id="item1" name="item1"><br>
+            <div class="itens">
+            <label for="Lápis">Lápis - R$0,99</label>
+            <input type="number" id="item1" value="0"><br>
+            </div>
+            
+            <div class="itens">
+            <label for="Caneta">Caneta - R$6,99</label>
+            <input type="number" id="item2" value="0"><br>
+            </div>
           
-            <label for="Caneta">Caneta</label><br>
-            <input type="number" id="item2" name="item2"><br>
+            <div class="itens">
+            <label for="item3">Caderno 160 folhas - R$15,99</label>
+            <input type="number" id="item3" value="0"><br>
+            </div>
           
-            <label for="item3">Produto 3:</label><br>
-            <input type="number" id="item3" name="item3"><br>
+            <div class="itens">
+            <label for="item4">Borracha - R$0,99</label>
+            <input type="number" id="item4" value="0"><br>
+            </div>
           
-            <label for="item4">Produto 4:</label><br>
-            <input type="number" id="item4" name="item4"><br>
-          
-            <label for="item5">Produto 5:</label><br>
-            <input type="number" id="item5" name="item5"><br><br>
-          
-            <input type="submit" value="Enviar">
-          </form> 
+            <div class="itens">
+            <label for="item5">Apontador - R$1,49</label>
+            <input type="number" id="item5" value="0"><br><br>
+            </div> 
+                
+            <button onclick="valorCompra()">Enviar</button>
+          </form>
+          <div>
+            <p id="precoCompra"></p>
+        </div>
+    </div>
+    <div id="foot" class="fullpg">
+        <div>
+            <p><strong>TODOS OS DIREITOS RESERVADOS</strong></p>
+            <p>Endereço: Rua X, Bairro Centro, Itabira, MG, Brazil. CEP: 11100-100</p>
+            <p>Telefone Comercial: (xx)xxxxx-xxxx</p>
+            <p>E-mail: exemplo@mail.com</p>
+        </div>
     </div>
 </body>
 </html>

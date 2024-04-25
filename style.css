@@ -60,7 +60,6 @@
 
 @media only screen and (max-width: 600px) {
     #s1 {
-        background-color: rgb(255, 220, 176);
         width: 100%;
         padding-top: 20vh;
         padding-bottom: 20vh;
@@ -103,21 +102,26 @@
 
 .texto {
     flex: 1;
-    padding: 3%;
+    padding: 2%;
     align-items: baseline;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.4rem;
+    font-size: larger;
 }
 
 .texto p{
     padding: 2%;
-
+    color: black;
 }
 
 .texto button{
-    padding: 3%;
     border: none;
-    font-size: 1.2rem;
+    padding: 5%;
+
+}
+
+.texto button a{
+    font-size: large;
+    color: black;
 }
 
 .imagem {
@@ -130,19 +134,25 @@
 }
 
 #s3 {
-    height: 20vh;
+    height: 100%;
     width: 100%;
-    padding : 30px;
+    padding : 0px;
     padding-top: 90px;
+    padding-bottom: 30px;
 } 
+
+#s3 img {
+    flex-grow: 2;
+    width: 100%;
+}
 
 #foot {
     background-image: none;
     background-color: rgb(44, 44, 44);
     height: 100%;
     width: 100%;
-    padding : 30px;
-    padding-top: 90px;
+    padding-bottom: 30px;
+    padding-top: 50px;
     text-align: center;
 }
 
@@ -170,4 +180,48 @@
     background-image: none;
     width: 15px;
     height: 15px;
+}
+
+#listaCompras{
+    height: 75%;
+    padding: 30px;
+    padding-top: 105px;
+    padding-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#listaCompras h1{
+    padding: 30px;
+}
+
+.itens{
+    padding: 5px;
+    padding-top: 0px;
+    padding-left: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#listaCompras form label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#listaCompras form input {
+    width: 40px;
+}
+
+#listaCompras form button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+#precoCompra{
+    padding: 30px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
