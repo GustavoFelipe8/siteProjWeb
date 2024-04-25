@@ -113,15 +113,10 @@
     color: black;
 }
 
-.texto button{
-    border: none;
-    padding: 5%;
-
-}
-
-.texto button a{
+.texto a{
     font-size: large;
     color: black;
+    padding-left: 5%;
 }
 
 .imagem {
